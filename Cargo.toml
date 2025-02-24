@@ -1,0 +1,10 @@
+[package]
+name = "rust_api_server_ex1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+sqlx = { version = "0.7", features = ["runtime-tokio", "sqlite"] }
+tokio = { version = "1", features = ["full"] }
