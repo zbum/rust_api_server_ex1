@@ -1,1 +1,5 @@
 /target
+greetings.db
+greetings.db-shm
+greetings.db-wal
+
